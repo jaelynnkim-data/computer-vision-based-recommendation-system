@@ -126,7 +126,7 @@ of using CNN, three models were checked for overfitting/underfitting as well as 
 for the proposed solution.
 
 
-#### A. The Baseline Model 
+#### [A. The Baseline Model](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/customer-style-recommendation-system-baseline.ipynb)
 To prevent overfitting, the baseline model included early stopping based on validation loss, data 
 augmentation, and a dropout layer to reduce over-reliance on specific neurons.
 
@@ -141,7 +141,7 @@ unseen data. The relatively flat and low validation accuracy, alongside the mini
 model is not capturing the underlying patterns well enough to perform accurately on new data.
 
 
-#### B. The Baseline Model + ResNet50
+#### [B. The Baseline Model + ResNet50](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/customer-style-recommendation-system-resnet50.ipynb)
 Complexity can be increased by adding more layers or using larger pre-trained networks like VGG16, ResNet, 
 or MobileNet as feature extractors. ResNet50 was selected and checked for overfitting/underfitting.
 
@@ -157,7 +157,7 @@ indicate that the more complex ResNet50 architecture is not able to effectively 
 also shows a higher loss.
 
 
-#### C. The Baseline Model + L1/L2 Regularization
+#### [C. The Baseline Model + L1/L2 Regularization](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/customer-style-recommendation-system_l1l2%20regularization.ipynb)
 Regularization techniques can also be used to combat overfitting. L1/L2 regularization was added 
 to the baseline model to check for its impact on overfitting/underfitting.
 

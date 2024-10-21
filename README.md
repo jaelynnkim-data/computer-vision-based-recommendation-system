@@ -115,10 +115,10 @@ data and test data for model training.
 - User-Item Matrix: A matrix was created from the CNN model’s classifications of new 
 images, representing the presence of each clothing category in the images
 
-
-<img src="https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%207.png" align="left" height="48" width="48" />
-
-![Validation Data](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%207.png) ![Validation Data](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%208.png)
+<div>
+    <img src="https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%207.png" height="100" width="480" style="display: block; margin-bottom: 20px;" />
+    <img src="https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%208.png" height="300" width="380" style="display: block; margin-bottom: 20px;" />
+</div>
 
 
 ## Explaining the Approach

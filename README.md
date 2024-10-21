@@ -116,7 +116,7 @@ data and test data for model training.
 images, representing the presence of each clothing category in the images
 
 
-![Validation Data](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%207.png) ![Validation Data](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%207.png](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%208.png))
+![Validation Data](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%207.png) ![Validation Data](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%208.png)
 
 
 ## Explaining the Approach

@@ -17,9 +17,6 @@ an individual on possible ways to style an
 existing item in their closet.
 
 
-![Intro Image](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%201.png)
-
-
 Therefore, the fashion industry must develop strategies that promote the reuse of existing garments while 
 designing new products that can easily integrate into consumers' current wardrobes without necessitating the 
 purchase of completely new outfits. 

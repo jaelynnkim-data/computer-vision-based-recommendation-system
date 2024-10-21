@@ -17,6 +17,9 @@ an individual on possible ways to style an
 existing item in their closet.
 
 
+![Intro Image](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%201.png)
+
+
 Therefore, the fashion industry must develop strategies that promote the reuse of existing garments while 
 designing new products that can easily integrate into consumers' current wardrobes without necessitating the 
 purchase of completely new outfits. 
@@ -25,7 +28,7 @@ in fashion from their “mood board,” which will be a collection of style insp
 aesthetically pleasing.
 
 
-![Deep Learning Model Training Process]()
+![Deep Learning Model Training Process](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%202.png)
 
 
 The first step is to train and develop the image-detection model to recognize clothing items from new, unseen 
@@ -47,7 +50,7 @@ included cleaning and annotating the data to reduce 1972 names to 214 unique
 categories.
 
 
-![Identifying Clothing Categories]()
+![Identifying Clothing Categories](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%203.png)
 
 
 #### Procuring Real-World Image Data
@@ -57,7 +60,7 @@ using the category names as the search keywords using gallery-dl in
 Python.
 
 
-![Procuring Real-World Image Data 1]()
+![Procuring Real-World Image Data 1](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%204.png)
 
 
 EDA also involved inspecting the downloaded images for each category to ensure they correctly 
@@ -70,7 +73,7 @@ Images that clearly did not display the category item were removed by hand to en
 accuracy of the model.
 
 
-![Procuring Real-World Image Data 2]()
+![Procuring Real-World Image Data 2](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%205.png)
 
 
 ### Assumptions About the Data and the Model
@@ -104,7 +107,7 @@ downloaded from Pinterest into corresponding folders.
 dataset and reduce computational load.
 
 
-![Image Resizing]()
+![Image Resizing](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%206.png)
 
 
 - Data Normalization and Augmentation: Image data was rescaled and augmented 
@@ -116,7 +119,7 @@ data and test data for model training.
 images, representing the presence of each clothing category in the images
 
 
-![Validation Data]()
+![Validation Data](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%207.png) ![Validation Data]([https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%207.png](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%208.png))
 
 
 ## Explaining the Approach
@@ -131,7 +134,7 @@ To prevent overfitting, the baseline model included early stopping based on vali
 augmentation, and a dropout layer to reduce over-reliance on specific neurons.
 
 
-![Baseline Model]()
+![Baseline Model](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%209.png)
 
 
 ##### Interpretation
@@ -146,7 +149,7 @@ Complexity can be increased by adding more layers or using larger pre-trained ne
 or MobileNet as feature extractors. ResNet50 was selected and checked for overfitting/underfitting.
 
 
-![Baseline Model and ResNet50]()
+![Baseline Model and ResNet50](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%2010.png)
 
 
 ##### Interpretation
@@ -162,7 +165,7 @@ Regularization techniques can also be used to combat overfitting. L1/L2 regulari
 to the baseline model to check for its impact on overfitting/underfitting.
 
 
-![Baseline Model and L1/L2 Regularization]()
+![Baseline Model and L1/L2 Regularization](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%2011.png)
 
 
 ##### Interpretation
@@ -177,14 +180,14 @@ random Pinterest user’s mood board webpage as unseen new data to design a user
 the categories showed up in each of the 100 images.
 
 
-![User-Item Matrix]()
+![User-Item Matrix](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%2012.png)
 
 
 Cosine similarity and Jaccard similarity were used to examine the most accurate user-item similarity recommendation score, with 
 both yielding similar results.
 
 
-![Cosine Similarity and Jaccard Similarity]()
+![Cosine Similarity and Jaccard Similarity](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%2013.png)
 
 
 ### Model Selection
@@ -228,7 +231,7 @@ generalization, and the utility of early stopping to prevent
 overfitting.
 
 
-![Cosine Similarity and Jaccard Similarity]()
+![Cosine Similarity and Jaccard Similarity](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%2014.png)
 
 
 ##### The case of the light blue satin midi dress
@@ -240,7 +243,7 @@ in being able to correctly identify images from the mood board that contain the 
 model was able to pick out an image from the mood board that matches the given image item almost identically.
 
 
-![light blue satin midi dress]()
+![light blue satin midi dress](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%2015.png)
 
 
 The CNN baseline model was also able to suggest other items that are usually seen paired with the 
@@ -248,7 +251,7 @@ item in the input image based on the provided mood board using cosine similarity
 scores.
 
 
-![Recommendations for Sequined Midi Dress]()
+![Recommendations for Sequined Midi Dress](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/Recommender%20System%20Image%2016.png)
 
 
 However, due to the low accuracy of the baseline model’s ability to detect objects in new, unseen images, the clothing 

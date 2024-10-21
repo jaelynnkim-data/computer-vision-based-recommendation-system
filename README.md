@@ -41,8 +41,8 @@ The initial exploratory data analysis involved identifying all possible unique f
 item category names while also making sure to generalize the categories in a fine-tuned manner that would allow for the best image recognition.
 
 
-This began with examining the CSV dataset of all product names from the online Zara 
-store to understand the distribution and frequency of different items. This step 
+This began with examining [the CSV dataset of all product names from the online Zara 
+store](https://github.com/jaelynnkim-data/customer-style-recommendation-system/blob/main/unique_product_names.csv) to understand the distribution and frequency of different items. This step 
 included cleaning and annotating the data to reduce 1972 names to 214 unique 
 categories.
 

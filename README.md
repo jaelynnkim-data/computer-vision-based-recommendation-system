@@ -21,7 +21,7 @@ Therefore, the fashion industry must develop strategies that promote the reuse o
 designing new products that can easily integrate into consumers' current wardrobes without necessitating the 
 purchase of completely new outfits. 
 To resolve this need, this project aims to propose a machine learning model that can recognize a user’s preference 
-in fashion from their “mood board,” which will be a collection of style inspiration photos that they find 
+in fashion from their “wish list,” which will be a collection of style inspiration photos that they find 
 aesthetically pleasing.
 
 
